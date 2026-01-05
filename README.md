@@ -1,4 +1,4 @@
-# Task List 📝
+# ✎ᝰ. Task List 📝
 
 Este projeto foi desenvolvido com o objetivo principal de **testar meus conhecimentos e colocar em prática** os conceitos de Front-end que venho estudando. É o resultado da transição entre a teoria e a aplicação real de lógica de programação, manipulação dinâmica de elementos e organização de código.
 
