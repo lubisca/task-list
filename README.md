@@ -14,10 +14,9 @@ Para consolidar meu aprendizado, decidi criar uma lista de tarefas funcional que
 ## Desafios Superados
 
 * **Manipulação de Nós (DOM):** Uso de `createElement` e `appendChild` para gerar tarefas dinamicamente, permitindo que cada item da lista seja um objeto independente no HTML.
-* **Gerenciamento de Eventos Aninhados:** Implementação do botão de exclusão ("X") dentro de cada tarefa, configurando o `addEventListener` no momento da criação para que o botão saiba exatamente qual elemento pai deve remover.
-* **Refatoração para Modules:** Organizar o código em arquivos separados para manter o escopo limpo e praticar o uso de `import` e `export`.
-* **Feedback de Interface (UX):** Uso de `setTimeout` para gerenciar a classe `ativo` no botão, criando um efeito de clique físico, além de validações com `.trim()` para impedir tarefas vazias.
-* **Persistência Visual:** Gerenciamento de mensagens de erro e sucesso através de classes CSS para guiar o usuário durante o uso.
+* **Gerenciamento de Eventos:** Implementação do botão de exclusão ("X") dentro de cada tarefa, configurando o `addEventListener` no momento da criação para que o botão saiba exatamente qual elemento pai deve remover.
+* **Lógica Funcional:** Organização das funções para manter o código limpo e funcional em um único script, tratando o fluxo de dados do input até a lista.
+* **Feedback de Interface (UX):** Uso de `setTimeout` para gerenciar a classe `ativo` no botão e validações com `.trim()` para impedir tarefas vazias.
 
 ## Lógica de Funcionamento
 O sistema utiliza um fluxo de criação em tempo real. Ao adicionar uma tarefa, o JavaScript executa o seguinte processo:
